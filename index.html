@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- Poner abajo los estilos locales -->
+    <link rel="stylesheet" href="Assets/css/style.css" />
+
+    <title>Maquetación-Taller Bootstrap 16 junio</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <!-- ** Primer NavBar ** -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #6304b7">
+            <a class="navbar-brand text-white" href="#">Cargar diseño</a>
+            <!-- Aqui dejaremos el boton opcional por si lo usamos en un futuro -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <button class="btn btn-outline-success my-2 my-sm-0 text-white" type="submit">
+                    <img src="Assets/img/delete.svg" alt="" width="10px" />
+                </button>
+            </div>
+        </nav>
+        <!-- ** Segunda navbar ** -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7f16dc">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Premade Layout <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ml-5">
+                        <a class="nav-link text-white" href="#">Your Saved Layouts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Termina el encabezado-->
+
+    <!-- Columnas -->
+    <div class="">
+        <div class="row">
+            <!-- ******************** Columna de la izquierda ***********************-->
+            <div class="col-3">
+                <h5 class="ml-4 pt-4">Find A Layout</h5>
+
+                <!-- Finder -->
+                <form class="form-inline my-2 my-lg-0 pl-3 pt-3">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                </form>
+
+                <!-- ** Checkbox ** -->
+                <h6 class="font-weight-bold mt-4 pl-4">Categorías</h6>
+                <div class="pl-3">
+                    <!-- pl-3 es pading a la izquierda-->
+                    <div class="form-check pt-2">
+                        <!-- Incluí el pt-2 para que tenga un espacio arriba -->
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Art & Design
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Business
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Comunity & Non-profit
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Education
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Events
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Fashion and Beauty
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Food and Drink
+                        </label>
+                    </div>
+                    <div class="form-check pt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />
+                        <label class="form-check-label" for="defaultCheck1">
+                            Services
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Fin de Checkbox -->
+            </div>
+            <!-- ************************ Columna derecha *********************-->
+            <div class="col-9">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="font-weight-bold m-4">163 Layouts</h5>
+                    </div>
+
+                    <!-- ** Botón raro  ** -->
+
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn">
+                            <img src="Assets/img/folder.svg" alt="" width="15px" />
+                            <p></p>
+                        </button>
+                        <button type="button" class="btn">
+                            <img src="Assets/img/menu.svg" alt="" width="15px" />
+                            <p></p>
+                        </button>
+                        <button type="button" class="btn">
+                            <img src="Assets/img/list.svg" alt="" width="15px" />
+                            <p></p>
+                        </button>
+                    </div>
+                </div>
+                <!-- ** Cards ** -->
+                <div class="row">
+                    <div class="row row-cols-3 row-cols-md-3 m-2">
+                        <div class="col mb-4">
+                            <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+                                <!-- El h-100 es para que tengan las mismas alturas -->
+                                <!-- El shadow-sm p-3 mb-5 bg-white rounded es para agregar una sombra pequeña -->
+                                <img src="https://i.pinimg.com/originals/27/95/33/279533a31c9af823d18ec20cb9c32f3c.jpg"
+                                    class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">Agency about page</h5>
+                                    <p class="card-text">
+                                        This is a longer card with supporting text below as a
+                                        natural lead-in to additional content. This content is a
+                                        little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+                                <img src="https://preview.redd.it/zlgnqz9m24461.jpg?width=2048&format=pjpg&auto=webp&s=ef11eb236221700b7315d029b9be9017e44e6d94"
+                                    class="card-img-top" alt="..." height="220" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Agency blog page</h5>
+                                    <p class="card-text">
+                                        This is a longer card with supporting text below as a
+                                        natural lead-in to additional content. This content is a
+                                        little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+                                <img src="https://pbs.twimg.com/media/EhQ71XAWsAAeOma?format=jpg&name=small"
+                                    class="card-img-top" alt="..." height="220" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Agengy contact page</h5>
+                                    <p class="card-text">
+                                        This is a longer card with supporting text below as a
+                                        natural lead-in to additional content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+                                <img src="https://pbs.twimg.com/media/EhRr7AVXcAEa5D_?format=jpg&name=large"
+                                    class="card-img-top" alt="..." height="220" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        This is a longer card with supporting text below as a
+                                        natural lead-in to additional content. This content is a
+                                        little bit longer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
